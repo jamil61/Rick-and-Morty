@@ -1,0 +1,197 @@
+header {
+    padding: 7px;
+    border-bottom: 2px solid #000;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+h2,
+h4,
+h5 {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.section1 {
+    margin-top: 2px;
+
+}
+
+.ar1 {
+
+    display: inline-block;
+    width: 58%;
+
+
+}
+
+.ar2 {
+    display: inline-block;
+    width: 36%;
+    vertical-align: top;
+
+}
+
+footer {
+    border-top: 1px solid black;
+}
+
+@media screen and (max-width:480px) {
+    body {
+        background-color: black;
+    }
+
+    header {
+        background-color: black;
+        color: #fff;
+        border-radius: 1.3em;
+        border: 1em solid green;
+        font-family: Raleway;
+    }
+
+    .burger-nav {
+        display: block;
+        height: 32px;
+        width: 13%;
+        background: url(burger.png) no-repeat 5% center;
+        cursor: pointer;
+        margin: 7%;
+
+    }
+
+    header .wrapper {
+        width: 100%;
+        padding: 0;
+    }
+
+    header nav ul {
+        overflow: hidden;
+        margin-left: -5%;
+        height: 0;
+    }
+
+    header nav ul.open {
+        height: auto;
+    }
+
+    header nav ul li {
+        list-style-type: none;
+        float: none;
+        text-align: left;
+        width: 100%;
+        margin-bottom: 1%;
+        text-align: left;
+
+    }
+
+    header nav ul li a {
+        text-decoration: none;
+        border-bottom: 1px solid #000;
+        display: block;
+        
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+    main {
+        background-color: grey;
+        border-radius: 1.2em;
+        font-family: Raleway, sans-serif;
+    }
+
+    .ar1 {
+
+
+        width: 90%;
+        margin: 4%;
+        text-align: center;
+        background-color: cornflowerblue;
+        padding: 0.3em;
+        border-radius: 1.1em;
+    }
+
+    .ar1 ul {
+        text-align: left;
+    }
+
+    .ar2 {
+
+        width: 90%;
+        text-align: center;
+        margin: 4%;
+        padding: 0.3em;
+        border-radius: 1.1em;
+        background-color: darkolivegreen;
+
+    }
+
+    .src {
+        background-color: brown;
+        width: 57%;
+        border-radius: 1.1em;
+        text-align: center;
+        margin-left: 1em;
+
+    }
+
+    .section2 h2 {
+        color: floralwhite;
+        background-color: darkorange;
+        width: 90%;
+        border-radius: 1.1em;
+        padding: 0.4em;
+        text-decoration: none;
+        margin-left: 0.3em;
+    }
+
+    .ar3,
+    .ar4 {
+
+        width: 90%;
+        text-align: center;
+        margin: 4%;
+        border-radius: 1.1em;
+        background-color: #000;
+        color: #fff;
+
+    }
+
+    .h5 {
+
+
+        margin-left: 1em;
+        color: darksalmon;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    footer li {
+
+        vertical-align: top;
+        display: inline-block;
+        margin-left: 0.3em;
+        background-color: crimson;
+        border-radius: 0.2em;
+
+    }
+
+    footer li a {
+        text-decoration: none;
+        color: #fff;
+
+
+    }
+}
